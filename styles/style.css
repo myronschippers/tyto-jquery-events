@@ -20,6 +20,10 @@ body {
     text-align: center;
 }
 
+.kittykat {
+    border: 1px solid red;
+}
+
 .stack {
     list-style: none;
     padding: 0;
