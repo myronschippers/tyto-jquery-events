@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/client.js" type="text/javascript"></script>
+
+    <title>jQuery Selectors</title>
+</head>
+<body>
+    <h1 class="primeHdg">jQuery Events</h1>
+
+    <div class="container">
+        <h2>Add a Person to the List</h2>
+
+        <div class="box spacer_bottom">
+            <div class="spacer_bottomSmall">
+                <label class="lblText" for="firstName">First Name</label>
+                <input class="js-field-firstname" name="firstName" id="firstName" placeholder="First Name" type="text" />
+            </div>
+            
+            <div class="spacer_bottomSmall">
+                <label>
+                    <div class="lblText">Last Name</div>
+                    <input class="js-field-lastname" name="lastName" placeholder="Last Name" type="text" />
+                </label>
+            </div>
+            
+            <div class="spacer_bottomSmall">
+                <input class="js-field-age" name="age" placeholder="Age" type="number" />
+            </div>
+
+            <button class="js-addPerson">Add Person</button>
+        </div>
+
+        <ul class="stack js-people">
+            <li>Sample Item</li>
+            <li>Sample Item</li>
+            <li>Sample Item</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
